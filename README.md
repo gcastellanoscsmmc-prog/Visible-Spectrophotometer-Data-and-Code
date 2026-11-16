@@ -39,10 +39,10 @@ The guide, code, and ZIP archives are at the repository root. The nested folder 
   - 📄 [`CodeSpectra_ENGLISH.ipynb`](CodeSpectra_ENGLISH.ipynb) — executable Google Colab notebook.
   - 📄 [`CodeSpectra_ENGLISH.py`](CodeSpectra_ENGLISH.py) — Python export of the notebook.
   - 📦 [`Code Data_CSV and Images.zip`](Code%20Data_CSV%20and%20Images.zip) — input archive for the analysis.
-    - 📁 `Code Data - Copy/` — folder inside the extracted archive.
+      - 📁 `Code Data - Copy/` — folder inside the extracted archive.
       - 📦 `DIY Spectrophotometer Code Images.zip` — keep this inner archive zipped for Colab.
       - 📄 Seven `Barrido*.csv` files and `Curva Referencia.xlsx` — upload all eight files with the inner image ZIP.
-      - 📄 [`LICENSE-CODE`](LICENSE-CODE) — CC0 1.0 Universal dedication for the Python analysis code only.
+  - 📄 [`LICENSE-CODE`](LICENSE-CODE) — CC0 1.0 Universal dedication for the Python analysis code only.
 
 ## What the results mean
 
