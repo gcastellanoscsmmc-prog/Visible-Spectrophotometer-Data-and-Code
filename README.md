@@ -23,6 +23,11 @@ Open the [`DIY_Spectrophotometer_Assembly_Guide.pdf`](DIY_Spectrophotometer_Asse
 
 5. Let the remaining cells run. At the end, Colab downloads `DIY Visible Spectra_Complete_Results.zip`, which contains selected figures, numerical results, and an output manifest. If the browser blocks the download, find the archive in Colab’s **Files** panel and download it from there.
 
+## Adapt the code to your own setup
+First, run the notebook with the included dataset to check that the workflow runs as expected. For a different instrument, capture your own wavelength reference images, dark frame, blanks, and sample images. Then update the input filenames and reference wavelengths in the notebook’s configuration section.
+
+By default, the code averages the 11 central rows of each image. If the spectrum is not centered in your images, adjust the rows used for extraction.
+
 ## Repository contents
 
 The guide, code, and ZIP archives are at the repository root. The nested folder below appears only after extracting the outer data ZIP.
@@ -40,7 +45,7 @@ The guide, code, and ZIP archives are at the repository root. The nested folder 
 
 ## What the results mean
 
-The notebook averages the **11 central rows** of each spectral image. For the dataset provided here, the code uses reference wavelengths of **365, 405, 532, and 650 nm** to map pixels to wavelengths. These values are settings for this experiment, not specifications for the prototype. If you build a different setup or use other reference sources, update the calibration settings and use calibration images from your own setup. The commercial reference spectra included in this repository cover **300–700 nm**.
+The notebook averages the **11 central rows** of each spectral image. For the dataset provided here, the code uses reference wavelengths of **365, 405, 532, and 650 nm** to map pixels to wavelengths. These values are settings for this experiment, not specifications for the prototype. If you build a different setup or use other reference sources, update the calibration settings and use calibration images from your own setup. The commercial reference spectra included in this repository cover **300–700 nm**. 
 
 The DIY absorbance values are **apparent absorbance** estimates derived from dark-corrected JPEG intensities. They are useful for exploring how illumination, weak signals, and possible sensor saturation affect a measurement. The prototype is an educational tool for studying spectral acquisition and instrument limitations, not a validated method for quantifying concentrations or reliably identifying absorption maxima.
 
