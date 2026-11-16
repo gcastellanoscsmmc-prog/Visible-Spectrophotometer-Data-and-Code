@@ -65,6 +65,6 @@ The experimental prototype was adapted from the [Nanodrop-Style UV-Vis Spectroph
 
 ### Theremino Spectrometer
 
-Theremino Spectrometer was used to acquire spectral images. It is third-party software and is not covered by this repository's MIT or CC BY 4.0 licenses. The software and manuals are available from the [official Theremino Spectrometer download page (https://www.theremino.com/downloads/automation#spectrometer).
+Theremino Spectrometer was used to acquire spectral images. It is third-party software and is not covered by this repository's CC0 1.0 Universal dedication or CC BY 4.0 license. The software and manuals are available from the [official Theremino Spectrometer download page (https://www.theremino.com/downloads/automation#spectrometer).
 
 <sub><strong>AI assistance.</strong> ChatGPT (OpenAI, GPT-6) assisted with drafting and editing this README. ChatGPT (OpenAI) was also used to generate, debug, and optimize the Python analysis code. The authors developed the analysis workflow iteratively, reviewed the documentation, and tested the code.</sub>
