@@ -49,6 +49,22 @@ The notebook averages the **11 central rows** of each spectral image. For the da
 
 The DIY absorbance values are **apparent absorbance** estimates derived from dark-corrected JPEG intensities. They are useful for exploring how illumination, weak signals, and possible sensor saturation affect a measurement. The prototype is an educational tool for studying spectral acquisition and instrument limitations, not a validated method for quantifying concentrations or reliably identifying absorption maxima.
 
-## 3D Design Attribution and License
+## Licenses and third-party materials
 
-The experimental prototype was adapted from the [Nanodrop-Style UV-Vis Spectrophotometer by KysonMuh on Thingiverse](https://www.thingiverse.com/thing:6723282). The 3D files archive retains the original attribution and Creative Commons Attribution–ShareAlike (CC BY-SA) license notices.
+### Analysis code
+
+The analysis script [`CodeSpectra_ENGLISH.py`](CodeSpectra_ENGLISH.py) and the Colab notebook [`CodeSpectra_ENGLISH.ipynb`](CodeSpectra_ENGLISH.ipynb) are made available under [CC0 1.0 Universal](LICENSE-CODE).
+
+### Experimental data and documentation
+
+The experimental data, spectral photographs, and original content in the assembly guide produced for this study are licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). This license does not cover third-party material.
+
+### 3D Design Attribution and License
+
+The experimental prototype was adapted from the [Nanodrop-Style UV-Vis Spectrophotometer by KysonMuh on Thingiverse](https://www.thingiverse.com/thing:6723282). The 3D files retain their original Creative Commons Attribution–ShareAlike (CC BY-SA) license and attribution notices, as provided in the 3D files archive.
+
+### Theremino Spectrometer
+
+Theremino Spectrometer was used to acquire spectral images. It is third-party software and is not covered by this repository's MIT or CC BY 4.0 licenses. The software and manuals are available from the [official Theremino Spectrometer download page (https://www.theremino.com/downloads/automation#spectrometer).
+
+<sub><strong>AI assistance.</strong> ChatGPT (OpenAI, GPT-6) assisted with drafting and editing this README. ChatGPT (OpenAI) was also used to generate, debug, and optimize the Python analysis code. The authors developed the analysis workflow iteratively, reviewed the documentation, and tested the code.</sub>
