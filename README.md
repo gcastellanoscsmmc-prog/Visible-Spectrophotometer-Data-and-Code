@@ -15,7 +15,7 @@ Open the [`DIY_Spectrophotometer_Assembly_Guide.pdf`](DIY_Spectrophotometer_Asse
 
    | Files to upload | Contents |
    | --- | --- |
-   | `DIY Spectrophotometer Code Images.zip` | Original spectral photographs, including wavelength references, the dark frame, blanks, and samples |
+   | `DIY Spectrophotometer Code Images.zip` | Standardized spectral photographs, including wavelength references, the dark frame, blanks, and samples |
    | All seven `Barrido*.csv` files | Commercial UV–Vis spectra and reference measurements |
    | `Curva Referencia.xlsx` | Reference workbook for the concentration series |
 
@@ -59,12 +59,13 @@ The analysis script [`CodeSpectra_ENGLISH.py`](CodeSpectra_ENGLISH.py) and the C
 
 The experimental data, spectral photographs, and original content in the assembly guide produced for this study are licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). This license does not cover third-party material.
 
-### 3D Design Attribution and License
+### 3D design attribution and license
 
 The experimental prototype was adapted from the [Nanodrop-Style UV-Vis Spectrophotometer by KysonMuh on Thingiverse](https://www.thingiverse.com/thing:6723282). The 3D files retain their original Creative Commons Attribution–ShareAlike (CC BY-SA) license and attribution notices, as provided in the 3D files archive.
 
 ### Theremino Spectrometer
 
-Theremino Spectrometer was used to acquire spectral images. It is third-party software and is not covered by this repository's CC0 1.0 Universal dedication or CC BY 4.0 license. The software and manuals are available from the [official Theremino Spectrometer download page (https://www.theremino.com/downloads/automation#spectrometer).
+Theremino Spectrometer v3.1 was used to acquire spectral images. It is third-party software and is not covered by this repository's CC0 1.0 Universal dedication or CC BY 4.0 license. Software downloads and manuals are available on the [official Theremino Spectrometer download page](https://www.theremino.com/downloads/automation#spectrometer). The version available for download may differ from the one used in this study.
+
 
 <sub><strong>AI assistance.</strong> ChatGPT (OpenAI, GPT-6) assisted with drafting and editing this README. ChatGPT (OpenAI) was also used to generate, debug, and optimize the Python analysis code. The authors developed the analysis workflow iteratively, reviewed the documentation, and tested the code.</sub>
