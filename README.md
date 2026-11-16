@@ -42,6 +42,7 @@ The guide, code, and ZIP archives are at the repository root. The nested folder 
     - 📁 `Code Data - Copy/` — folder inside the extracted archive.
       - 📦 `DIY Spectrophotometer Code Images.zip` — keep this inner archive zipped for Colab.
       - 📄 Seven `Barrido*.csv` files and `Curva Referencia.xlsx` — upload all eight files with the inner image ZIP.
+      - 📄 [`LICENSE-CODE`](LICENSE-CODE) — CC0 1.0 Universal dedication for the Python analysis code only.
 
 ## What the results mean
 
