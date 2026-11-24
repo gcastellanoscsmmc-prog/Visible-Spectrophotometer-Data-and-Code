@@ -49,6 +49,12 @@ The notebook averages the **11 central rows** of each spectral image. For the da
 
 The DIY absorbance values are **apparent absorbance** estimates derived from dark-corrected JPEG intensities. They are useful for exploring how illumination, weak signals, and possible sensor saturation affect a measurement. The prototype is an educational tool for studying spectral acquisition and instrument limitations, not a validated method for quantifying concentrations or reliably identifying absorption maxima.
 
+## How to cite
+
+If you use the dataset or spectral photographs from this repository, please cite the accompanying preprint and acknowledge this repository as the source of the files.
+
+Castellanos, G.; Lemus-Lone, M.; Escobar-Sánchez, H.; Solís-Portillo, J. (2026). *Performance and Limitations of a 3D-Printed, Camera-Based DIY Spectrophotometer for Analytical Chemistry Education*. ChemRxiv. https://doi.org/10.26434/chemrxiv.15012297/v1
+
 ## Licenses and third-party materials
 
 ### Analysis code
@@ -72,4 +78,4 @@ The experimental prototype was adapted from the [Nanodrop-Style UV-Vis Spectroph
 Theremino Spectrometer v3.1 was used to acquire spectral images. It is third-party software and is not covered by this repository's CC0 1.0 Universal dedication or CC BY 4.0 license. Software downloads and manuals are available on the [official Theremino Spectrometer download page](https://www.theremino.com/downloads/automation#spectrometer). The version available for download may differ from the one used in this study.
 
 
-<sub><strong>AI assistance.</strong> ChatGPT (OpenAI, GPT-6) assisted with drafting and editing this README and the repository’s licensing notices. ChatGPT (OpenAI) was also used to generate, debug, and optimize the Python analysis code. The authors developed the analysis workflow iteratively, reviewed the documentation, and tested the code.</sub>
+<sub><strong>AI assistance.</strong> ChatGPT (OpenAI) assisted with drafting and editing this README and the repository’s licensing notices. ChatGPT (OpenAI) was also used to generate, debug, and optimize the Python analysis code. The authors developed the analysis workflow iteratively, reviewed the documentation, and tested the code.</sub>
