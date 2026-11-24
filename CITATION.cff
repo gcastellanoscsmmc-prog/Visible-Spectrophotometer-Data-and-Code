@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use the experimental data or spectral photographs from this repository, please cite the accompanying preprint. Citation of other repository materials is also appreciated."
+title: "3D-Printed DIY Visible Spectrophotometer: Data, Code, Assembly Guide, and 3D Files"
+authors:
+  - family-names: "Castellanos"
+    given-names: "Gabriela"
+  - family-names: "Lemus-Lone"
+    given-names: "Mayarí"
+  - family-names: "Escobar-Sánchez"
+    given-names: "Hugo"
+  - family-names: "Solís-Portillo"
+    given-names: "Jorge"
+repository-code: "https://github.com/gcastellanoscsmmc-prog/Visible-Spectrophotometer-Data-and-Code"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Castellanos"
+      given-names: "Gabriela"
+    - family-names: "Lemus-Lone"
+      given-names: "Mayarí"
+    - family-names: "Escobar-Sánchez"
+      given-names: "Hugo"
+    - family-names: "Solís-Portillo"
+      given-names: "Jorge"
+  title: "Performance and Limitations of a 3D-Printed, Camera-Based DIY Spectrophotometer for Analytical Chemistry Education"
+  journal: "ChemRxiv"
+  year: 2026
+  doi: "10.26434/chemrxiv.15012297/v1"
