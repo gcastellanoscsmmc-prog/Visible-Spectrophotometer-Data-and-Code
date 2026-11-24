@@ -4,24 +4,33 @@ title: "3D-Printed DIY Visible Spectrophotometer: Data, Code, Assembly Guide, an
 authors:
   - family-names: "Castellanos"
     given-names: "Gabriela"
+    orcid: "https://orcid.org/0009-0006-4682-2511"
   - family-names: "Lemus-Lone"
     given-names: "Mayarí"
+    orcid: "https://orcid.org/0009-0006-0697-3331"
   - family-names: "Escobar-Sánchez"
     given-names: "Hugo"
+    orcid: "https://orcid.org/0009-0006-0577-3610"
   - family-names: "Solís-Portillo"
     given-names: "Jorge"
+    orcid: "https://orcid.org/0000-0002-1806-4606"
 repository-code: "https://github.com/gcastellanoscsmmc-prog/Visible-Spectrophotometer-Data-and-Code"
 preferred-citation:
   type: article
+  status: preprint
   authors:
     - family-names: "Castellanos"
       given-names: "Gabriela"
+      orcid: "https://orcid.org/0009-0006-4682-2511"
     - family-names: "Lemus-Lone"
       given-names: "Mayarí"
+      orcid: "https://orcid.org/0009-0006-0697-3331"
     - family-names: "Escobar-Sánchez"
       given-names: "Hugo"
+      orcid: "https://orcid.org/0009-0006-0577-3610"
     - family-names: "Solís-Portillo"
       given-names: "Jorge"
+      orcid: "https://orcid.org/0000-0002-1806-4606"
   title: "Performance and Limitations of a 3D-Printed, Camera-Based DIY Spectrophotometer for Analytical Chemistry Education"
   journal: "ChemRxiv"
   year: 2026
